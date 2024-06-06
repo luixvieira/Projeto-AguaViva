@@ -136,7 +136,7 @@ public class MainAdministradores {
 			
 		// Exibe as possíveis exceções tratadas do sistema
 		} catch (IllegalArgumentException | UnsupportedOperationException e) {
-			System.out.println(e.getMessage());
+			System.out.println("Erro: " + e.getMessage() + "\nPor favor, verifique a entrada e tente novamente.");
 		}		
 
 		leitor.close();
